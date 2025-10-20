@@ -6,6 +6,7 @@ body {
   background: #e6f0ff;
   color: #111827;
   line-height: 1.6;
+  font-size: 16px;
 }
 
 /* Enlaces */
@@ -29,12 +30,12 @@ header {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 header h1 {
-  font-size: 2.8rem;
+  font-size: 45px;
   margin-bottom: 10px;
   letter-spacing: 1px;
 }
 header p {
-  font-size: 1.1rem;
+  font-size: 18px;
   opacity: 0.9;
 }
 
@@ -54,7 +55,7 @@ header p {
 }
 .titulo {
   color: #2563eb;
-  font-size: 1.4rem;
+  font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 20px;
@@ -84,7 +85,7 @@ li {
 footer {
   text-align: center;
   padding: 40px 0;
-  font-size: 0.9rem;
+  font-size: 14px;
   color: #6b7280;
   border-top: 1px solid #e5e7eb;
 }
@@ -92,13 +93,13 @@ footer {
 /* Responsivo */
 @media (max-width: 760px) {
   header h1 {
-    font-size: 2.2rem;
+    font-size: 35px;
   }
   .container {
     margin: -20px 10px 40px;
     padding: 30px 20px;
   }
   .titulo {
-    font-size: 1.2rem;
+    font-size: 19px;
   }
 }
