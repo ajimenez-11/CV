@@ -1,33 +1,33 @@
-/* ===== Tipografía y fondo ===== */
+/* Tipografía y fondo */
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  background: #e6f0ff; /* color de fondo */
-  color: #111827;      /* color del texto */
+  background: #e6f0ff;
+  color: #111827;
   line-height: 1.6;
 }
 
-/* ===== Enlaces ===== */
+/* Enlaces */
 a {
-  color: #2563eb;      /* color principal */
+  color: #2563eb;
   text-decoration: none;
-  transition: 0.2s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 a:hover {
+  color: #1e3a8a;
   text-decoration: underline;
-  color: #1e3a8a;     /* color secundario */
+  transform: scale(1.05);
 }
 
-/* ===== Encabezado ===== */
+/* Header */
 header {
-  background-color: #2563eb; /* color principal */
+  background-color: #2563eb;
   color: #fff;
   text-align: center;
-  padding: 80px 20px 50px 20px;
+  padding: 80px 20px 50px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-
 header h1 {
   font-size: 2.8rem;
   margin-bottom: 10px;
@@ -38,22 +38,22 @@ header p {
   opacity: 0.9;
 }
 
-/* ===== Contenedor principal ===== */
+/* Contenedor principal */
 .container {
   max-width: 850px;
-  margin: -40px auto 60px auto;
+  margin: -40px auto 60px;
   background: #fff;
   border-radius: 12px;
   padding: 40px 30px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
 
-/* ===== Secciones ===== */
+/* Secciones */
 .sobre-mi, .habilidades, .proyectos, .formacion, .contacto {
   margin-bottom: 50px;
 }
 .titulo {
-  color: #2563eb;  /* color principal */
+  color: #2563eb;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -62,12 +62,12 @@ header p {
   padding-bottom: 5px;
 }
 
-/* ===== Sobre mí ===== */
+/* Sobre mí */
 .sobre-mi p {
   text-align: justify;
 }
 
-/* ===== Listas ===== */
+/* Listas */
 ul {
   padding-left: 20px;
 }
@@ -75,27 +75,27 @@ li {
   margin-bottom: 10px;
 }
 
-/* ===== Contacto ===== */
+/* Contacto */
 .contacto p {
   margin-bottom: 8px;
 }
 
-/* ===== Footer ===== */
+/* Footer */
 footer {
   text-align: center;
   padding: 40px 0;
   font-size: 0.9rem;
   color: #6b7280;
-  border-top: 1px solid #e5e7eb; /* borde suave */
+  border-top: 1px solid #e5e7eb;
 }
 
-/* ===== Responsive ===== */
+/* Responsivo */
 @media (max-width: 760px) {
   header h1 {
     font-size: 2.2rem;
   }
   .container {
-    margin: -20px 10px 40px 10px;
+    margin: -20px 10px 40px;
     padding: 30px 20px;
   }
   .titulo {
